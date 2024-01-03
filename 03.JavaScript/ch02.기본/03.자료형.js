@@ -26,6 +26,7 @@ console.log(`올해는 ${new Date().bn getFullYear()}년입니다.`);
         full_year   : snake case
 
 */
+
 // 3. 논리형(boolean)
 console.log(typeof(true), typeof(false));
 console.log(2 == 2.0, 5 >= 4, !('가나다' > '마바사'));      // 관계 연산자
