@@ -7,12 +7,12 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script>
         $(document).ready(() => {
-            $('h1')                 // 모든 h1태그에 대해
+            $('h1')                     // 모든 h1 태그에 대해
                 .on('mouseover', function(e) {
-                    $(this).css('backgroundColor', 'yellow');   //this = 자신
+                    $(this).css('backgroundColor', 'yellow');
                 })
-                .on('mouseout', function(e) {$(this).css('backgroundColor', 'white')});
-            $('h1').click(function(e) {alert($(this).text());});
+                .on('mouseout', function(e) { $(this).css('backgroundColor', 'white'); });
+            $('h1').click(function(e) { alert($(this).text()); });
         });
     </script>
 </head>
