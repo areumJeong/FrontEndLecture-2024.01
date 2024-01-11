@@ -12,4 +12,3 @@ function diffSum(arr) {
 
 let sample = [24, 67, 45, 97, 43]
 console.log(diffSum(sample));
-
